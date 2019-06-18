@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://172.16.50.195/buycoor/fe-monitor"
+    "url": "git+ssh://git@github.com:cjl-sky/fe-monitor.git"
   },
   "keywords": [
     "nodejs",
