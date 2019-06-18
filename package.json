@@ -1,0 +1,48 @@
+{
+  "name": "fe-monitor",
+  "version": "2.2.7",
+  "description": "a node.js performance analysis tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "egg-bin test",
+    "cov": "egg-bin cov"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://172.16.50.195/buycoor/fe-monitor"
+  },
+  "keywords": [
+    "nodejs",
+    "monitor",
+    "cpu",
+    "memory",
+    "performance"
+  ],
+  "author": "chenjialin",
+  "license": "Apache-2.0",
+  "files": [
+    "src_logic",
+    "dispatch.js",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "egg-bin": "^3.7.0"
+  },
+  "dependencies": {
+    "JSONStream": "^1.3.1",
+    "basic-auth": "^1.1.0",
+    "body-parser": "^1.17.2",
+    "co": "^4.6.0",
+    "colors": "^1.1.2",
+    "compression": "^1.6.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "glob": "^7.1.2",
+    "lodash": "^4.17.4",
+    "pretty-bytes": "^4.0.2",
+    "serve-favicon": "^2.4.3",
+    "v8-profiler-node8": "^6.0.1"
+  }
+}
